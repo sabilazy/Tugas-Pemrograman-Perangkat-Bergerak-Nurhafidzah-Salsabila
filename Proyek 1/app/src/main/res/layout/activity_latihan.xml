@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/a16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/teal_200"
+            android:text="Proyek 1 Nurhafidzah" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/a30" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kepada" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kepada"
+        android:minHeight="48dp"
+        android:textColor="@color/button_text"
+        android:id="@+id/to"/>
+
+    <TextView
+        android:id="@+id/subjek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subyek" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subyek"
+        android:minHeight="48dp"
+        android:id="@+id/sub"/>
+
+    <EditText
+        android:id="@+id/teks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Tuliskan Pesan Anda Disini" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="@color/button_text"
+        android:text="Kirim" />
+</LinearLayout>

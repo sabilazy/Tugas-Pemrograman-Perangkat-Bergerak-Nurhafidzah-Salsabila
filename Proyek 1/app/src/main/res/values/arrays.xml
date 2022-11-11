@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/a10</item>
+        <item>@drawable/a11</item>
+        <item>@drawable/a13</item>
+    </array>
+    <array name="colors">
+        <item>@color/black_sly</item>
+        <item>@color/green_sly</item>
+        <item>@color/grey_sly</item>
+    </array>
+    <array name="iconsBaru">
+        <item>@drawable/rumah</item>
+        <item>@drawable/ponsel</item>
+        <item>@drawable/universitas</item>
+    </array>
+</resources>
